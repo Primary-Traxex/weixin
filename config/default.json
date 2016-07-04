@@ -1,0 +1,56 @@
+{
+  "domain": "ddziyuan.ngrok.cc",
+  "is_debug": true,
+  "mongodb": {
+    "host": "127.0.0.1",
+    "port": "27017",
+    "db": "taotong"
+  },
+  "sms": {
+    "host": "127.0.0.1",
+    "port": "3000"
+  },
+  "wx": {
+    "app_id": "wx7dd9a6aac0df5e8c",
+    "app_secret": "a893f1ec03ad0bd2eae71cd5bd7518d6",
+    "wx_menu": {
+      "button": [
+        {
+          "name": "菜单",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "淘通科技",
+              "url": "http://ddziyuan.ngrok.cc"
+            }
+          ]
+        },
+        {
+          "name": "菜单2",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "淘通科技外网",
+              "url": "https://ddziyuan.ngrok.cc"
+            }
+          ]
+        },
+        {
+          "name": "助理",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "大学",
+              "url": "http://promotion.mcdonalds.com.cn/mcardvoucher?wechat_card_js=1"
+            },
+            {
+              "type": "view",
+              "name": "社区",
+              "url": "http://ddziyuan.pythonanywhere.com"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

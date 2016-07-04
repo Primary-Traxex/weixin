@@ -11,8 +11,8 @@
     "port": "3000"
   },
   "wx": {
-    "app_id": "wx7dd9a6aac0df5e8c",
-    "app_secret": "a893f1ec03ad0bd2eae71cd5bd7518d6",
+    "app_id": "你的app_id",
+    "app_secret": "你的app_secret",
     "wx_menu": {
       "button": [
         {
